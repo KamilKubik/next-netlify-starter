@@ -3,7 +3,7 @@ import React from 'react';
 import { db } from '../../lib/firebase-admin';
 
 const RandomProject = () => {
-  console.log(projects);
+  // console.log(projects);
   return <div>Random Project</div>;
 };
 
