@@ -44,7 +44,7 @@ export default function Home() {
         <input value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
         <button onClick={onProjectCreate}>Go to your project!</button>
         <Link href="/projects/[project]" as="/projects/random">
-          <a>Go to random project</a>
+          <a>Go to random project...</a>
         </Link>
       </main>
 
